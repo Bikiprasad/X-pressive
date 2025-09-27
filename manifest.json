@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "X-pressive for X/Twitter",
+  "version": "1.0",
+  "description": "Do more with LLMs.",
+  "permissions": ["activeTab", "scripting","storage"],
+  "content_scripts": [
+    {
+      "matches": ["*://twitter.com/*", "*://x.com/*"],
+      "js": ["content.js"],
+      "type": ["module"] ,
+      "css": ["styles.css"]
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+  
+}

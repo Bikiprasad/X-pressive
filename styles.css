@@ -1,0 +1,140 @@
+.my-custom-btn {
+  background: #1da1f2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 4px 8px;
+  margin-left: 6px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.my-custom-btn:hover {
+  background: #0d8ddb;
+}
+
+.ai-btn:hover { 
+    background-color: #6ba4e04a;
+}
+
+
+
+.show-modal-btn {
+            background-color: #3b82f6;
+            color: #ffffff;
+            font-weight: 600;
+            padding: 0.75rem 1.5rem;
+            border-radius: 9999px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            transition: all 0.3s;
+            transform: scale(1);
+            border: none;
+            cursor: pointer;
+        }
+
+        .show-modal-btn:hover {
+            background-color: #2563eb;
+            transform: scale(1.05);
+        }
+
+        .modal-overlay {
+            position: fixed;
+            inset: 0;
+            background-color: rgba(17, 24, 39, 0.75);
+            z-index: 50;
+            transition: opacity 0.3s;
+            display: none;
+            overflow: hidden;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal-container {
+            position: relative;
+            background-color: #ffffff;
+            border-radius: 0.75rem;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            overflow: hidden;
+            transform: scale(0.95);
+            transition: all 0.3s ease-out;
+            max-width: 28rem;
+            width: 90%;
+            margin: 3rem auto;
+        }
+        
+        .modal-overlay.active {
+            display: flex;
+        }
+        
+        .modal-overlay.active .modal-container {
+            transform: scale(1);
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            color: #9ca3af;
+            cursor: pointer;
+            transition: color 0.3s;
+            border: none;
+            background: none;
+        }
+
+        .close-btn:hover {
+            color: #4b5563;
+        }
+
+        .close-btn svg {
+            height: 1.5rem;
+            width: 1.5rem;
+        }
+
+        .modal-body {
+            padding: 2rem;
+        }
+
+        .modal-body h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #1f2937;
+            margin-bottom: 0.5rem;
+        }
+
+        .modal-body p {
+            color: #4b5563;
+            margin-bottom: 1.5rem;
+        }
+
+        .modal-actions {
+            display: flex;
+            justify-content: flex-end;
+            gap: 0.5rem;
+        }
+
+        .cancel-btn, .action-btn {
+            font-weight: 600;
+            padding: 0.5rem 1rem;
+            border-radius: 9999px;
+            transition: all 0.3s;
+            border: none;
+            cursor: pointer;
+        }
+
+        .cancel-btn {
+            background-color: #e5e7eb;
+            color: #1f2937;
+        }
+
+        .cancel-btn:hover {
+            background-color: #d1d5db;
+        }
+
+        .action-btn {
+            background-color: #3b82f6;
+            color: #ffffff;
+        }
+
+        .action-btn:hover {
+            background-color: #2563eb;
+        }

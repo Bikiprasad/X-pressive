@@ -1,4 +1,4 @@
-<img width="1077" height="303" alt="image" src="https://github.com/user-attachments/assets/dd93014f-69f3-48ba-8cc8-bf1a6e7e6b4b" /># X-pressive
+# X-pressive
 X-Pressive is a browser tool for X (Twitter) that uses AI to analyze posts, suggest smart replies, create similar viral posts, and explain why a post is trending. Instantly access these features via a popup, making your social media interactions smarter and more engaging.
 \
 
